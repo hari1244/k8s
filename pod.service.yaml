@@ -8,5 +8,5 @@ metadata:
     enironment: dev
 spec:
   containers:
-  - name: nginx-container
-    image: nginx:1.14.2
+  - name: nginx
+    image: nginx
