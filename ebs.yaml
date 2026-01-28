@@ -5,11 +5,13 @@ metadata:
 spec:
   accessModes:
   - ReadWriteOnce
-  persistentvolumeReclaimPolicy: Retain
+  persistentVolumeReclaimPolicy: Retain
   capacity:
     storage: 15Gi
   csi:
     driver: ebs.csi.aws.com
     fsType: ext4
-    volumeHandle: vol-00f364bef4a0fc351
+    volumeHandle: vol-03139bf90a066040d
+
+    
   
