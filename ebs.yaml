@@ -27,5 +27,24 @@ spec:
   resources:
     requests:
       storage: 15Gi
+
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx
+spec:
+  containers:
+  - name: nginx-html
+    image: nginx
+    volumeMounts:
+    - name: ebs-nginx
+      mountPath: /usr/share/nginx/html
+  nodeSelector:
+    topology.kubernetes.io/zone: us-east-1d
+  volumes:
+  - name: ebs-nginx
+    persistentVolumeClaim:
+      claimName: ebs-static
     
   
