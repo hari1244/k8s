@@ -1,0 +1,10 @@
+apiversion : v1
+kind : pod
+metadata :
+name : shiva
+labels : shiva
+
+spec: 
+containers :
+ - name : nginx
+   image : nginx
