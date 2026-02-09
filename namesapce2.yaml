@@ -4,5 +4,5 @@ metadata:
   name: shiva
   labels:
     environment: development
-    project: roboshop
+    project: shiva
     
