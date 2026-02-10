@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+data:
+  name: "shiva"
+  mailid: "hkby1903@gmail.com"
+  mobile no: "12344555"
