@@ -5,7 +5,7 @@ metadata:
 spec:
   containers:
   - name: nginx-html
-    image: nginx  # Using Alpine for smaller footprint
+    image: nginx:1.14.2  # Using Alpine for smaller footprint
     imagePullPolicy: IfNotPresent
     resources:
       requests:
