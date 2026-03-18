@@ -2,6 +2,7 @@ apiVersion: V1
 kind: pod
 metadata:
   name: nginx
+  namespace: shiva
   labels:
     purpose: practice
 spec: 
