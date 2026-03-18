@@ -1,13 +1,14 @@
 apiVersion: v1
 kind: Pod
 metadata:
- name: memory
- spec:
- containers:
-  - name: shia
-    image: nginx 
-    resources:
-    limits:
+    name: memory
+    spec:
+    containers:
+    - name: shia
+      image: nginx 
+      resources:
+      limits:
       memory: "128Mi"
-    requests:
-      memory: "64Mi"  
+      requests:
+       memory: "64Mi"  
+     
