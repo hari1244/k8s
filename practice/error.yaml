@@ -1,8 +1,8 @@
 apiVersion: v1
-Kind: Pod
+kind: Pod
 metadata:
- name: alma
- spec:
+  name: my-pod
+spec:
   containers:
-  - name: alma
-    iamge: alma
+  - name: my-container
+    image: almalinx
