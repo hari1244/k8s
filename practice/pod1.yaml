@@ -1,0 +1,11 @@
+apiVersion: V1
+kind: pod
+metadata:
+  name: nginx
+  labels:
+    purpose: practice
+spec: 
+  containers:
+  - name: nginx-html
+    image: nginx:1.14.2  # Using Alpine for smaller footprint
+    
