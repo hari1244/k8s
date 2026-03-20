@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name:  app-config
+data: 
+  name: shiva
+  emaild: hkby1903@gmail.com
+  phone: 9999999999
+  address: hyderabad
+  
