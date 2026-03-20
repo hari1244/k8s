@@ -4,7 +4,6 @@ metadata:
   name:  app-config
 data: 
   name: shiva
-  emaild: hkby1903@gmail.com
+  email: hkby1903@gmail.com
   phone: 9999999999
   address: hyderabad
-  
