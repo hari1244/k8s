@@ -9,5 +9,7 @@ spec:
     envFrom:
     - configMapRef:
         name: app-config
-port:
-  - containerPort: 80
+    ports:
+    - containerPort: 80
+      name: http  # Optional but recommended
+      protocol: TCP
