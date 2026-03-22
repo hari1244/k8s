@@ -1,13 +1,14 @@
 apiVersion: v1
 kind: Pod   
 metadata:
-  name: service-pod-nodeport
+  name: nodeport-pod
   labels:
-    type: nodeport
-    purpose: practice
-    env: dev
-    project: roboshop
+     purpose: practice
+     env: dev
+     project: nodeport
 spec:
   containers: 
   - name: nginx
     image: nginx
+    ports:
+    - containerPort: 80
