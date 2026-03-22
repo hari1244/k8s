@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata: 
+  name: ngninx-service
+spec:
+  selector:
+    purpose: practice
+    env: dev
+    project: roboshop
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 80
