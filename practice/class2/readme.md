@@ -12,5 +12,6 @@ cluster ip
 node port
 load balancer
 replicaset
+deployment
 
 
