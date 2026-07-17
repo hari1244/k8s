@@ -6,6 +6,8 @@ metadata:
   labels:
     environment: dev
     project: roboshop
+  annotations:
+    description: This is a pod for shiva namespace
 spec:
   containers:
   - name: nginx
