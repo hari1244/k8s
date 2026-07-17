@@ -1,9 +1,8 @@
 apiVersion: v1
 kind: Pod
 metadata:
- name: nginx
- namespace: shiva
+  name: shiva
 spec:
- containers:
- - name: nginx
-   image: nginx
+  containers:
+  - name: nginx
+    image: nginx
