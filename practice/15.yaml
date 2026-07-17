@@ -8,6 +8,7 @@ metadata:
     project: roboshop
   annotations:
     description: This is a pod for shiva namespace
+    url: https://www.facebook.com
 spec:
   containers:
   - name: nginx
