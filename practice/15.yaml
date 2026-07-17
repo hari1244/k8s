@@ -3,6 +3,9 @@ kind: Pod
 metadata:
   name: shiva
   namespace: shiva
+  labels:
+    environment: dev
+    project: roboshop
 spec:
   containers:
   - name: nginx
