@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod   
 metadata:
-  name: service-pod 
+  name: service-pod1
   labels:
     purpose: practice
     env: dev
