@@ -7,10 +7,11 @@ spec:
   selector:
     project: roboshop
     component: frontend
-    enironment: dev
+    environment: dev
     purpose: nodeport
   ports:
     - protocol: TCP
       port: 80
       targetPort: 80  
       nodePort: 30008
+
